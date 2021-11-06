@@ -32,6 +32,13 @@
     - Flipped how `(^?)`, `(~?)`, and `($?)` work to more accurately
       reflect how one uses these operators.
 
+  * `XMonad.Util.Hacks`
+
+    - Added `trayerPaddingXmobarEventHook` to communicate tray (e.g.,
+      trayer) resize events to XMobar so that padding space may be
+      reserved on xmobar for the tray.  Requires XMobar version that
+      supports the `<hspace=X/>` feature.
+
 ## 0.17.0 (October 27, 2021)
 
 ### Breaking Changes
